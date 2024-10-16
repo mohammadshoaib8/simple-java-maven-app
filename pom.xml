@@ -23,17 +23,16 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.8.1</version> <!-- Updated to a newer version -->
+        <version>3.8.1</version>
         <configuration>
-          <source>1.8</source>  <!-- Set to 1.8 (Java 8) -->
-          <target>1.8</target>  <!-- Set to 1.8 (Java 8) -->
+          <source>1.8</source>
+          <target>1.8</target>
         </configuration>
       </plugin>
       <plugin>
-        <!-- Build an executable JAR -->
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-jar-plugin</artifactId>
-        <version>3.2.0</version> <!-- Updated to a newer version -->
+        <version>3.2.0</version>
         <configuration>
           <archive>
             <manifest>
@@ -47,7 +46,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-resources-plugin</artifactId>
-        <version>3.2.0</version> <!-- Updated to a newer version -->
+        <version>3.3.0</version> <!-- Updated to a more stable version -->
       </plugin>
     </plugins>
   </build>
